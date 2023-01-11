@@ -1,0 +1,114 @@
+.dailyreport {
+  background-color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  box-shadow: 0px 2px 20px 0px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.submit {
+  background-color: green;
+  border: none;
+  margin: 10px 20px;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.select {
+  width: 200px;
+  height: 30px;
+  border: 1px solid lightgray;
+  /* box-shadow: 0px 4px 10px 0px lightgrey; */
+}
+
+.sec1 {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 34px;
+}
+
+.sec2 {
+  display: flex;
+  gap: 2rem;
+  margin-top: 40px;
+  padding: 2rem;
+  border: 1px solid lightgray;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid lightgray;
+  /* box-shadow: 0px 4px 10px 0px lightgrey; */
+}
+
+textarea {
+  border: 1px solid lightgray;
+  /* box-shadow: 0px 4px 10px 0px lightgrey; */
+  height: 50px;
+}
+
+input,
+::placeholder {
+  font-size: 13px;
+  /* border-radius: 5px; */
+}
+
+select ::placeholder {
+  font-size: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table {
+  background-color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  box-shadow: 0px 2px 20px 0px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.tableselect {
+  width: 245px;
+  height: 30px;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+/* input:focus:invalid {
+  border: 1px solid red;
+  outline: none;
+}
+
+input:focus:valid {
+  border: 1px solid green;
+  outline: none;
+}
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+} */
